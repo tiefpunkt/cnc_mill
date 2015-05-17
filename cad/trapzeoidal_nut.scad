@@ -40,7 +40,7 @@ trapezoidThreadNegativeSpace(
 
 difference() {	
 	cube([22,38,36]);
-#	translate([11,11,0]) thread();
+	translate([11,11,0]) thread();
 	translate([22,28,27]) rotate([0,90,0])  rotate([0,0,90]) hexagon(13.2,12);
 	translate([-1,28,27]) rotate([0,90,0]) cylinder(r=4, h=20);
 	translate([22,28,9]) rotate([0,90,0])  rotate([0,0,90]) hexagon(13.1,12);

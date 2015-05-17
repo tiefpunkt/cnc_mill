@@ -57,6 +57,6 @@ module part2() {
 	}
 }
 
-//translate([0,0,7.5]) rotate(180,[1,0,0]) 	part1();
+translate([0,0,7.5]) rotate(180,[1,0,0]) 	part1();
 translate([0,0,48])  rotate(180,[1,0,0]) translate([65,0,-7.5])
 	part2();
